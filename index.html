@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Jarred J - .Net Developer</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#home" class="nav__logo">Jarred</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home nav__icon"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-cog nav__icon"></i>
+                                <span>Skills</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="bx bx-collection nav__icon"></i>
+                                <span>Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="bx bx-envelope nav__icon"></i>
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="bx bx-x nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="bx bx-menu"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__img">
+                            <image class="home__img-pic" src="assets/img/profile.png" alt="">
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Jarred</h1>
+                            <h3 class="home__subtitle">.Net Developer</h2>
+                            <p class="home__description">I am a Fullstack Developer focused on building 
+                                                        web applications and web API's with C# and Microsoft's 
+                                                        .Net Core framework.</p>
+                            <div class="home__button">
+                                <a href="#contact" class="button button--flex home__button">
+                                    Contact Me <i class="bx bx-mail-send button__icon"></i>
+                                </a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button-flex">
+                            <i class="bx bx-mouse home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="bx bx-chevrons-down home__scroll-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">A brief introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="/assets/img/about.png" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            I'm Jarred, a fullstack C# .Net developer currently based in Vancouver Canada. 
+                            I have 2+ years of software development experience and have worked on projects that
+                            incorporate backend and frontend. Take a look at my skills section to learn more about my skillset or view my portfolio
+                            to see the projects I have worked on. <br><br>
+                            I am currently available for hire as a .Net Software Developer, if you are 
+                            interested in hiring me feel free to send me a message using the contact form.
+                        </p>
+                        <div class="about__info">
+                            
+                        </div>
+                        <div class="about__button">
+                            <a href="/assets/pdf/jarred-resume.pdf" class="button button--flex">
+                                Download Resume <i class="bx bx-download button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level and experience</span>
+
+                <div class="skills__container container grid">
+                    <div class="skills__logo-img">
+                        <svg height="100px" preserveAspectRatio="xMidYMid" viewBox="0 0 256 288" xmlns="http://www.w3.org/2000/svg"><path d="m255.569 84.452376c-.002-4.83-1.035-9.098-3.124-12.761-2.052-3.602-5.125-6.621-9.247-9.008-34.025-19.619-68.083-39.178-102.097-58.81699995-9.17-5.294-18.061-5.101-27.163.269-13.543 7.98699995-81.348 46.83399995-101.553 58.53699995-8.321 4.817-12.37 12.189-12.372 21.771-.013 39.455 0 78.909-.013 118.365 0 4.724.991 8.909 2.988 12.517 2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.269 34.015-19.64 68.075-39.198 102.105-58.817 4.217-2.44 7.333-5.544 9.386-9.252 1.994-3.608 2.987-7.793 2.987-12.518 0 0 0-78.889-.013-118.345" fill="#a179dc"/><path d="m128.182 143.241376-125.194 72.084c2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.269 34.015-19.64 68.075-39.198 102.105-58.817 4.217-2.44 7.333-5.544 9.386-9.252z" fill="#280068"/><path d="m255.569 84.452376c-.002-4.83-1.035-9.098-3.124-12.761l-124.263 71.55 124.413 72.074c1.994-3.608 2.985-7.793 2.987-12.518 0 0 0-78.889-.013-118.345" fill="#390091"/><g fill="#fff"><path d="m201.892326 116.294008v13.473684h13.473684v-13.473684h6.736842v13.473684h13.473685v6.736842h-13.473685v13.473684h13.473685v6.736842h-13.473685v13.473684h-6.736842v-13.473684h-13.473684v13.473684h-6.736842v-13.473684h-13.473684v-6.736842h13.473684v-13.473684h-13.473684v-6.736842h13.473684v-13.473684zm13.473684 20.210526h-13.473684v13.473684h13.473684z"/><path d="m128.456752 48.625876c35.143771 0 65.827133 19.0862981 82.26181 47.4560675l-.16037-.2730675-41.348577 23.808283c-8.146656-13.793605-23.081479-23.1020873-40.213232-23.2937868l-.539631-.0030178c-26.125574 0-47.3060815 21.1793886-47.3060815 47.3049616 0 8.543615 2.2777748 16.552204 6.2389764 23.469476 8.1540981 14.235253 23.4829071 23.836606 41.0671051 23.836606 17.69277 0 33.108884-9.723357 41.221568-24.110835l-.197128.345313 41.286486 23.918037c-16.254398 28.129557-46.517408 47.156948-81.252701 47.536189l-1.058225.005774c-35.2545819 0-66.0252492-19.203824-82.4185122-47.72358-8.0029927-13.922969-12.5820476-30.064389-12.5820476-47.27698 0-52.4660524 42.5322682-94.99944 95.0005598-94.99944z"/></g></svg>
+                    </div>
+                    <div class="skills__logo-img">
+                        <svg height="100px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#5c2d91;}.cls-2,.cls-3{fill:#fff;}.cls-2{opacity:0.1;}.cls-4{fill:#f2f2f2;}</style></defs><title>logo_NETcore</title><circle class="cls-1" cx="32" cy="32" r="32"/><path class="cls-2" d="M9.82,9A32,32,0,1,0,55,54.18Z"/><path class="cls-3" d="M7.4,37.25a1.35,1.35,0,0,1-1-.42,1.38,1.38,0,0,1-.41-1,1.4,1.4,0,0,1,.41-1,1.34,1.34,0,0,1,1-.43,1.37,1.37,0,0,1,1,.43,1.39,1.39,0,0,1,.42,1,1.37,1.37,0,0,1-.42,1A1.38,1.38,0,0,1,7.4,37.25Z"/><path class="cls-3" d="M27.27,37H24.65L15.28,22.46a6,6,0,0,1-.58-1.14h-.08a18.72,18.72,0,0,1,.1,2.5V37H12.59V18.77h2.77l9.12,14.28q.57.89.74,1.22h.05a19.28,19.28,0,0,1-.13-2.68V18.77h2.13Z"/><path class="cls-3" d="M41.69,37H32V18.77h9.24V20.7H34.18v6.06h6.58v1.92H34.18V35h7.52Z"/><path class="cls-3" d="M56,20.7H50.7V37H48.57V20.7H43.33V18.77H56Z"/><path class="cls-4" d="M26.12,49.4a4.93,4.93,0,0,1-2.32.49,3.74,3.74,0,0,1-2.87-1.15,4.26,4.26,0,0,1-1.08-3,4.46,4.46,0,0,1,1.21-3.26,4.12,4.12,0,0,1,3.08-1.24,4.93,4.93,0,0,1,2,.35v1a4,4,0,0,0-2-.5,3.06,3.06,0,0,0-2.35,1,3.64,3.64,0,0,0-.9,2.58,3.47,3.47,0,0,0,.84,2.45,2.86,2.86,0,0,0,2.21.91,4.14,4.14,0,0,0,2.19-.56Z"/><path class="cls-4" d="M30.21,49.89A2.78,2.78,0,0,1,28.08,49a3.11,3.11,0,0,1-.79-2.23,3.24,3.24,0,0,1,.83-2.36,3,3,0,0,1,2.23-.85,2.69,2.69,0,0,1,2.09.83,3.28,3.28,0,0,1,.75,2.29,3.22,3.22,0,0,1-.81,2.3A2.84,2.84,0,0,1,30.21,49.89Zm.07-5.47a1.83,1.83,0,0,0-1.46.63,2.59,2.59,0,0,0-.54,1.74,2.45,2.45,0,0,0,.54,1.68,1.85,1.85,0,0,0,1.46.62,1.76,1.76,0,0,0,1.43-.6,2.62,2.62,0,0,0,.5-1.72,2.66,2.66,0,0,0-.5-1.73A1.75,1.75,0,0,0,30.28,44.42Z"/><path class="cls-4" d="M37.86,44.72a1.18,1.18,0,0,0-.73-.19,1.23,1.23,0,0,0-1,.58,2.68,2.68,0,0,0-.41,1.58v3.06h-1v-6h1V45h0a2.1,2.1,0,0,1,.63-1,1.43,1.43,0,0,1,.94-.35,1.57,1.57,0,0,1,.57.08Z"/><path class="cls-4" d="M43.72,47H39.49A2.24,2.24,0,0,0,40,48.54a1.86,1.86,0,0,0,1.42.54,3,3,0,0,0,1.86-.67v.9a3.48,3.48,0,0,1-2.09.57,2.54,2.54,0,0,1-2-.82,3.35,3.35,0,0,1-.73-2.3,3.28,3.28,0,0,1,.79-2.28,2.55,2.55,0,0,1,2-.88,2.26,2.26,0,0,1,1.82.76,3.18,3.18,0,0,1,.64,2.12Zm-1-.81a2,2,0,0,0-.4-1.29,1.37,1.37,0,0,0-1.1-.46,1.55,1.55,0,0,0-1.15.49,2.21,2.21,0,0,0-.59,1.27Z"/></svg>
+                    </div>
+                    <div class="skills__logo-img">
+                        <svg height="100px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" style="enable-background:new 0 0 360 360;" xml:space="preserve"> <g id="XMLID_978_"> <path id="XMLID_979_" d="M344.377,125.605h-48.754V77.834L212.601,0H15.623v360h280v-51.668h48.754V125.605z M314.377,278.332h-210 V155.605h210V278.332z"/> <path id="XMLID_982_" d="M149.671,235.093c-2.516,0-4.968-0.306-7.36-0.92c-2.392-0.613-4.57-1.364-6.532-2.254 c-1.963-0.888-3.665-1.778-5.106-2.668c-1.442-0.888-2.438-1.61-2.99-2.162l-5.612,10.948c3.802,2.7,8.096,4.784,12.88,6.256 c4.784,1.472,9.628,2.208,14.536,2.208c3.189,0,6.24-0.354,9.154-1.058c2.912-0.705,5.488-1.824,7.728-3.358 c2.238-1.532,4.017-3.542,5.336-6.026c1.318-2.484,1.978-5.474,1.978-8.97c0-3.004-0.492-5.535-1.472-7.59 c-0.982-2.054-2.378-3.818-4.186-5.29c-1.81-1.472-4.018-2.698-6.624-3.68c-2.607-0.98-5.506-1.9-8.694-2.76 c-2.454-0.612-4.616-1.196-6.486-1.748c-1.872-0.552-3.419-1.164-4.646-1.84c-1.228-0.674-2.162-1.456-2.806-2.346 c-0.644-0.888-0.966-2.008-0.966-3.358c0-2.33,0.858-4.14,2.576-5.428c1.716-1.288,4.324-1.932,7.82-1.932 c1.962,0,3.895,0.246,5.796,0.736c1.9,0.492,3.664,1.09,5.29,1.794c1.625,0.706,3.004,1.426,4.14,2.162 c1.134,0.736,1.916,1.32,2.346,1.748l5.612-10.304c-2.884-1.962-6.256-3.664-10.12-5.106c-3.864-1.44-8.096-2.162-12.696-2.162 c-3.312,0-6.41,0.445-9.292,1.334c-2.884,0.89-5.414,2.193-7.59,3.91c-2.178,1.718-3.88,3.864-5.106,6.44 c-1.228,2.576-1.84,5.52-1.84,8.832c0,2.516,0.382,4.678,1.15,6.486c0.767,1.81,1.917,3.404,3.45,4.784 c1.532,1.38,3.45,2.576,5.75,3.588c2.3,1.012,5.014,1.948,8.142,2.806c2.576,0.736,4.906,1.412,6.992,2.024 c2.084,0.614,3.864,1.288,5.336,2.024c1.472,0.736,2.606,1.595,3.404,2.576c0.796,0.982,1.196,2.178,1.196,3.588 C160.158,232.855,156.663,235.093,149.671,235.093z"/> <path id="XMLID_983_" d="M188.079,235.92c2.79,3.068,6.133,5.552,10.028,7.452c3.894,1.902,8.233,2.852,13.018,2.852 c3.128,0,6.072-0.414,8.832-1.242c2.76-0.828,5.336-1.978,7.729-3.45l3.771,4.232h11.96l-8.924-10.028 c2.698-3.004,4.799-6.44,6.302-10.304c1.502-3.864,2.254-7.912,2.254-12.144c0-4.108-0.768-8.156-2.3-12.144 c-1.533-3.986-3.68-7.544-6.439-10.672c-2.761-3.128-6.088-5.658-9.982-7.59c-3.896-1.932-8.204-2.898-12.926-2.898 c-4.601,0-8.864,0.905-12.788,2.714c-3.926,1.81-7.314,4.248-10.166,7.314c-2.853,3.067-5.092,6.594-6.716,10.58 c-1.626,3.987-2.438,8.158-2.438,12.512c0,4.172,0.767,8.25,2.3,12.236C183.126,229.328,185.287,232.855,188.079,235.92z M193.415,205.146c0.828-2.606,2.038-4.952,3.634-7.038c1.595-2.085,3.588-3.756,5.98-5.014c2.392-1.256,5.12-1.886,8.188-1.886 c2.944,0,5.597,0.614,7.958,1.84c2.36,1.228,4.354,2.852,5.98,4.876c1.624,2.024,2.882,4.355,3.771,6.992 c0.889,2.638,1.334,5.368,1.334,8.188c0,2.392-0.337,4.754-1.012,7.084c-0.676,2.332-1.626,4.478-2.852,6.44l-4.508-5.06h-11.961 l9.937,11.224c-1.228,0.676-2.562,1.212-4.002,1.61c-1.442,0.399-2.99,0.598-4.646,0.598c-3.006,0-5.689-0.612-8.05-1.84 c-2.361-1.226-4.355-2.852-5.98-4.876c-1.626-2.024-2.868-4.354-3.727-6.992c-0.859-2.636-1.288-5.366-1.288-8.188 C192.173,210.406,192.587,207.754,193.415,205.146z"/> <polygon id="XMLID_986_" points="298.708,234.633 265.405,234.633 265.405,180.445 252.708,180.445 252.708,245.765 298.708,245.765 	"/> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+
+                    </div>
+                    <div class="skills__logo-img">
+                        <svg height="100px" viewBox="0 0 342 480" version="1.1" xmlns="http://www.w3.org/2000/svg"> <g id="#000000ff"> <path fill="#000000" opacity="1.00" d=" M 68.37 0.96 C 89.37 0.70 110.37 0.88 131.37 0.87 C 131.42 7.44 131.52 14.01 131.28 20.58 C 116.73 20.48 102.19 20.58 87.65 20.67 C 87.55 30.21 87.36 39.75 87.45 49.29 C 102.05 49.38 116.66 49.52 131.26 49.46 C 131.43 54.86 131.37 60.28 131.21 65.69 C 110.27 65.55 89.33 65.61 68.39 65.63 C 68.44 44.07 68.48 22.52 68.37 0.96 Z" /> <path fill="#000000" opacity="1.00" d=" M 138.86 0.89 C 160.12 0.85 181.38 0.72 202.65 0.96 C 202.57 7.17 202.63 13.37 202.63 19.58 C 187.16 19.53 171.68 19.60 156.21 19.78 C 156.23 22.22 156.23 24.66 156.21 27.10 C 171.66 27.35 187.10 27.38 202.54 27.47 C 202.60 40.20 202.57 52.92 202.65 65.64 C 181.38 65.60 160.11 65.62 138.84 65.72 C 138.73 60.58 138.72 55.45 138.87 50.31 C 153.61 50.35 168.36 50.37 183.10 50.25 C 183.19 46.94 183.23 43.62 183.22 40.31 C 168.41 40.31 153.59 40.36 138.78 40.26 C 138.78 27.14 138.78 14.01 138.86 0.89 Z" /> <path fill="#000000" opacity="1.00" d=" M 209.77 1.00 C 230.99 1.00 252.22 1.00 273.44 1.00 C 273.53 7.24 273.62 13.48 273.42 19.71 C 257.88 19.70 242.34 19.79 226.80 19.82 C 226.84 22.37 226.90 24.92 227.03 27.47 C 242.48 27.40 257.93 27.59 273.37 27.75 C 273.51 40.42 273.61 53.09 273.43 65.76 C 252.16 65.70 230.89 65.70 209.62 65.80 C 209.49 60.68 209.45 55.54 209.67 50.42 C 224.38 50.53 239.10 50.51 253.82 50.37 C 253.86 47.05 253.93 43.73 253.90 40.42 C 239.13 40.56 224.35 40.48 209.57 40.43 C 209.57 27.29 209.67 14.14 209.77 1.00 Z" /> </g> <g id="#0170baff"> <path fill="#0170ba" opacity="1.00" d=" M 0.00 92.46 C 113.92 92.45 227.83 92.44 341.75 92.46 C 335.48 163.31 329.31 234.16 322.78 304.99 C 318.90 350.26 314.90 395.53 310.68 440.77 C 286.37 447.21 262.30 454.55 238.00 461.02 C 215.68 467.57 193.18 473.50 170.85 480.00 L 170.19 480.00 C 148.94 473.68 127.48 468.12 106.23 461.80 C 81.15 455.04 56.29 447.50 31.20 440.77 C 27.93 406.86 24.98 372.93 22.07 339.00 C 16.58 276.31 10.61 213.66 5.33 150.96 C 3.50 132.09 2.19 113.16 0.00 94.33 L 0.00 92.46 M 171.41 120.41 C 171.17 134.02 171.59 147.64 171.17 161.24 C 132.09 161.10 93.00 161.21 53.92 161.25 C 54.59 174.46 56.36 187.58 58.18 200.68 C 94.54 202.03 130.95 200.63 167.31 201.72 C 135.50 215.99 103.30 229.43 71.35 243.40 C 68.61 244.62 65.68 245.54 63.23 247.32 C 63.50 261.83 65.84 276.26 66.87 290.74 C 86.25 290.67 105.62 290.36 125.00 290.33 C 140.53 290.25 156.07 290.56 171.60 290.22 C 170.86 314.08 171.83 337.97 171.10 361.83 C 160.65 360.28 150.33 357.95 139.92 356.10 C 131.71 354.31 123.30 353.38 115.21 351.03 C 114.06 339.58 113.26 328.09 112.24 316.63 C 109.90 315.91 107.42 315.98 105.00 315.94 C 93.26 316.01 81.51 315.90 69.76 316.08 C 70.91 338.11 72.89 360.11 76.26 381.93 C 87.84 384.95 99.44 387.91 111.00 391.06 C 128.71 395.88 146.64 399.89 164.38 404.63 C 166.49 405.08 168.62 405.86 170.81 405.68 C 171.99 420.17 171.08 434.75 171.30 449.28 C 175.39 448.62 179.41 447.61 183.36 446.39 C 216.94 437.27 250.48 427.98 284.04 418.77 C 285.71 405.57 286.49 392.28 287.81 379.05 C 291.30 338.83 294.82 298.61 298.48 258.40 C 302.77 212.40 306.48 166.35 310.80 120.35 C 264.33 120.39 217.87 120.26 171.41 120.41 Z" /> </g> <g id="#29a9dfff"> <path fill="#29a9df" opacity="1.00" d=" M 171.41 120.41 C 217.87 120.26 264.33 120.39 310.80 120.35 C 306.48 166.35 302.77 212.40 298.48 258.40 C 294.82 298.61 291.30 338.83 287.81 379.05 C 286.49 392.28 285.71 405.57 284.04 418.77 C 250.48 427.98 216.94 437.27 183.36 446.39 C 179.41 447.61 175.39 448.62 171.30 449.28 C 171.08 434.75 171.99 420.17 170.81 405.68 C 171.11 405.62 171.72 405.50 172.02 405.44 C 203.25 397.60 234.27 388.97 265.43 380.85 C 269.37 336.65 273.74 292.47 276.51 248.18 C 250.01 248.32 223.50 248.24 197.00 248.35 C 193.14 248.37 189.28 248.35 185.44 248.07 C 199.70 240.73 214.70 234.91 229.34 228.36 C 243.39 221.99 257.61 216.02 271.71 209.77 C 274.43 208.52 277.33 207.48 279.72 205.62 C 280.66 202.17 280.61 198.56 280.98 195.03 C 281.79 183.83 283.23 172.69 283.77 161.48 C 246.24 161.18 208.71 161.44 171.17 161.24 C 171.59 147.64 171.17 134.02 171.41 120.41 Z" /> <path fill="#29a9df" opacity="1.00" d=" M 171.60 290.22 C 189.72 289.91 207.85 290.40 225.98 290.28 C 224.97 308.81 223.43 327.31 222.47 345.84 C 211.36 349.47 200.08 352.54 188.88 355.90 C 182.91 357.72 176.78 359.16 171.10 361.83 C 171.83 337.97 170.86 314.08 171.60 290.22 Z" /> </g> <g id="#cfcfcfff"> <path fill="#cfcfcf" opacity="1.00" d=" M 53.92 161.25 C 93.00 161.21 132.09 161.10 171.17 161.24 C 171.68 204.24 171.04 247.24 171.60 290.22 C 156.07 290.56 140.53 290.25 125.00 290.33 C 105.62 290.36 86.25 290.67 66.87 290.74 C 65.84 276.26 63.50 261.83 63.23 247.32 C 65.68 245.54 68.61 244.62 71.35 243.40 C 103.30 229.43 135.50 215.99 167.31 201.72 C 130.95 200.63 94.54 202.03 58.18 200.68 C 56.36 187.58 54.59 174.46 53.92 161.25 Z" /> <path fill="#cfcfcf" opacity="1.00" d=" M 69.76 316.08 C 81.51 315.90 93.26 316.01 105.00 315.94 C 107.42 315.98 109.90 315.91 112.24 316.63 C 113.26 328.09 114.06 339.58 115.21 351.03 C 123.30 353.38 131.71 354.31 139.92 356.10 C 150.33 357.95 160.65 360.28 171.10 361.83 C 172.10 376.35 170.35 390.97 172.02 405.44 C 171.72 405.50 171.11 405.62 170.81 405.68 C 168.62 405.86 166.49 405.08 164.38 404.63 C 146.64 399.89 128.71 395.88 111.00 391.06 C 99.44 387.91 87.84 384.95 76.26 381.93 C 72.89 360.11 70.91 338.11 69.76 316.08 Z" /> </g> <g id="#ffffffff"> <path fill="#ffffff" opacity="1.00" d=" M 171.17 161.24 C 208.71 161.44 246.24 161.18 283.77 161.48 C 283.23 172.69 281.79 183.83 280.98 195.03 C 280.61 198.56 280.66 202.17 279.72 205.62 C 277.33 207.48 274.43 208.52 271.71 209.77 C 257.61 216.02 243.39 221.99 229.34 228.36 C 214.70 234.91 199.70 240.73 185.44 248.07 C 189.28 248.35 193.14 248.37 197.00 248.35 C 223.50 248.24 250.01 248.32 276.51 248.18 C 273.74 292.47 269.37 336.65 265.43 380.85 C 234.27 388.97 203.25 397.60 172.02 405.44 C 170.35 390.97 172.10 376.35 171.10 361.83 C 176.78 359.16 182.91 357.72 188.88 355.90 C 200.08 352.54 211.36 349.47 222.47 345.84 C 223.43 327.31 224.97 308.81 225.98 290.28 C 207.85 290.40 189.72 289.91 171.60 290.22 C 171.04 247.24 171.68 204.24 171.17 161.24 Z" /> </g> </svg>
+                                                </div>
+                    <div class="skills__logo-img">
+                        <svg height="100px" preserveAspectRatio="xMidYMid" viewBox="0 0 256 361" xmlns="http://www.w3.org/2000/svg"><path d="m255.554813 70.7657143-23.241143 260.3597367-104.469802 28.962461-104.1821537-28.92167-23.21652749-260.4005277z" fill="#e44d26"/><path d="m128 337.950242 84.416703-23.403605 19.861099-222.4893183h-104.277802z" fill="#f16529"/><path d="m82.8202198 155.932132h45.1797802v-31.937407h-80.082989l.7644835 8.568264 7.8494945 88.009846h71.469011v-31.936703h-42.2610989z" fill="#ebebeb"/><path d="m90.0177582 236.54189h-32.0597802l4.4743736 50.145758 65.4206594 18.161231.146989-.040791v-33.227956l-.139956.037275-35.5685275-9.60422z" fill="#ebebeb"/><path d="m24.1807473 0h16.229978v16.0351648h14.8465934v-16.0351648h16.2306813v48.5584176h-16.229978v-16.2602198h-14.8465934v16.2602198h-16.2299781v-48.5584176z"/><path d="m92.8309451 16.1026813h-14.2881759v-16.1026813h44.8140658v16.1026813h-14.294505v32.4557363h-16.2306816v-32.4557363z"/><path d="m130.469275 0h16.923428l10.410198 17.061978 10.399648-17.061978h16.929759v48.5584176h-16.163165v-24.0682198l-11.166242 17.2652308h-.279209l-11.173978-17.2652308v24.0682198h-15.880439z"/><path d="m193.20967 0h16.234901v32.5077802h22.824088v16.0506374h-39.058989z"/><g fill="#fff"><path d="m127.889582 220.572835h39.326945l-3.707076 41.419956-35.619869 9.614066v33.22655l65.472704-18.145759.480351-5.395692 7.504879-84.079824.779253-8.576h-74.237187z"/><path d="m127.889582 155.854066v.078066h77.143209l.640704-7.17855 1.45512-16.190593.763781-8.568264h-80.002814z"/></g></svg>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!--=============== PORTFOLIO ===============-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Selection of projects created by me</span>
+
+                <div class="portfolio__container container grid">
+                    <!--==================== PORTFOLIO ITEM 1 ====================-->
+                    <div class="portfolio__content">
+                        <div>
+                            <img src="/assets/img/portfolio-1.png" alt="" class="portfolio__item-img">
+                            <h3 class="portfolio__item-title">Tiny House Land Share</h3>
+                            <p class="portfolio__item-description">Description of the project.</p>
+                            <ul class="portfolio__item-list">
+                                <li class="portfolio__item-list-item">C#</li>
+                                <li class="portfolio__item-list-item">ASP.NET Core 6</li>
+                                <li class="portfolio__item-list-item">EF Core</li>
+                                <li class="portfolio__item-list-item">HTML/CSS</li>
+                            </ul>
+                        </div>
+
+                        <span class="button button--flex button--small button--link portfolio__button">
+                            View more
+                            <i class="bx bx-arrow-right button__icon"></i>
+                        </span>
+                        <!--==================== POP-UP MODAL FOR PORTFOLIO ITEM 1 ====================-->
+                        <div class="portfolio__modal">
+                            <div class="portfolio__modal-content">
+                                <h4 class="portfolio__modal-title">Tiny House Land Share</h4>
+                                <i class="bx bx-x portfolio__modal-close"></i>
+
+                                <p class="portfolio__modal-description">
+                                    Tiny House Land Share is a web application that aims to connect land 
+                                    owners and tiny house owners. This web application provides users a platform
+                                    to post listings and/or search land for rent or tiny house owner listings.  <br><br>
+                                    This project was created by myself in 3 months using C# ASP.Net Core. My aim
+                                    for this project was to create a usefull web applicaiton that I could eventually
+                                    host online and that would help solve finding land for people of alternative
+                                     living lifestyles. Through building this web application I have gained a stronger
+                                     understanding of how to integrate basic search functionality, use EF Core for identity
+                                     login and roles authorization, create a messaging system,
+                                     use MVC pattern effectively, and sharpen my frontend skills.                              
+                                </p>
+
+                                <ul class="portfolio__item-list">
+                                    <li class="portfolio__item-list-item">C#</li>
+                                    <li class="portfolio__item-list-item">ASP.NET Core 6</li>
+                                    <li class="portfolio__item-list-item">MVC</li>
+                                    <li class="portfolio__item-list-item">Dependancy Injection</li>
+                                    <li class="portfolio__item-list-item">EF Core</li>
+                                    <li class="portfolio__item-list-item">MS SQL</li>
+                                    <li class="portfolio__item-list-item">LINQ</li>
+                                    <li class="portfolio__item-list-item">HTML/CSS</li>
+                                    <li class="portfolio__item-list-item">Visual Studio 2022</li>
+                                    <li class="portfolio__item-list-item">AutoMapper</li>
+                                </ul>
+
+                                <div class="portfolio__modal-item-links">
+                                    <a href="https://www.github.com" class="button button--flex button--small 
+                                    button--link portfolio__modal-item-button">
+                                        Code <i class="bx bx-code-curly button__icon"></i>
+                                    </a>  
+                                    <a href="#" class="button button--flex button--small
+                                    button--link portfolio__modal-item-button">
+                                        Demo <i class="bx bx-play-circle button__icon"></i>
+                                    </a>  
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--==================== PORTFOLIO ITEM 2 ====================-->
+                    <div class="portfolio__content">
+                        <div>
+                            <img src="/assets/img/portfolio-1.png" alt="" class="portfolio__item-img">
+                            <h3 class="portfolio__item-title">Tiny House Land Share</h3>
+                            <p class="portfolio__item-description">Description of the project.</p>
+                            <ul class="portfolio__item-list">
+                                <li class="portfolio__item-list-item">C#</li>
+                                <li class="portfolio__item-list-item">ASP.NET Core 6</li>
+                                <li class="portfolio__item-list-item">EF Core</li>
+                                <li class="portfolio__item-list-item">HTML/CSS</li>
+                            </ul>
+                        </div>
+
+                        <span class="button button--flex button--small button--link portfolio__button">
+                            View more
+                            <i class="bx bx-arrow-right button__icon"></i>
+                        </span>
+                        <!--==================== POP-UP MODAL FOR PORTFOLIO ITEM 2 ====================-->
+                        <div class="portfolio__modal">
+                            <div class="portfolio__modal-content">
+                                <h4 class="portfolio__modal-title">Tiny House Land Share</h4>
+                                <i class="bx bx-x portfolio__modal-close"></i>
+
+                                <p class="portfolio__modal-description">
+                                    Tiny House Land Share is a web application that aims to connect land 
+                                    owners and tiny house owners. This web application provides users a platform
+                                    to post listings and/or search land for rent or tiny house owner listings.  <br><br>
+                                    This project was created by myself in 3 months using C# ASP.Net Core. My aim
+                                    for this project was to create a usefull web applicaiton that I could eventually
+                                    host online and that would help solve finding land for people of alternative
+                                     living lifestyles. Through building this web application I have gained a stronger
+                                     understanding of how to integrate basic search functionality, use EF Core for identity
+                                     login and roles authorization, create a messaging system,
+                                     use MVC pattern effectively, and sharpen my frontend skills.                              
+                                </p>
+
+                                <ul class="portfolio__item-list">
+                                    <li class="portfolio__item-list-item">C#</li>
+                                    <li class="portfolio__item-list-item">ASP.NET Core 6</li>
+                                    <li class="portfolio__item-list-item">MVC</li>
+                                    <li class="portfolio__item-list-item">Dependancy Injection</li>
+                                    <li class="portfolio__item-list-item">EF Core</li>
+                                    <li class="portfolio__item-list-item">MS SQL</li>
+                                    <li class="portfolio__item-list-item">LINQ</li>
+                                    <li class="portfolio__item-list-item">HTML/CSS</li>
+                                    <li class="portfolio__item-list-item">Visual Studio 2022</li>
+                                    <li class="portfolio__item-list-item">AutoMapper</li>
+                                </ul>
+
+                                <div class="portfolio__modal-item-links">
+                                    <a href="https://www.github.com" class="button button--flex button--small 
+                                    button--link portfolio__modal-item-button">
+                                        Code <i class="bx bx-code-curly button__icon"></i>
+                                    </a>  
+                                    <a href="#" class="button button--flex button--small
+                                    button--link portfolio__modal-item-button">
+                                        Demo <i class="bx bx-play-circle button__icon"></i>
+                                    </a>  
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--==================== PORTFOLIO ITEM 3 ====================-->
+                    <div class="portfolio__content">
+                        <div>
+                            <img src="/assets/img/portfolio-1.png" alt="" class="portfolio__item-img">
+                            <h3 class="portfolio__item-title">Tiny House Land Share</h3>
+                            <p class="portfolio__item-description">Description of the project.</p>
+                            <ul class="portfolio__item-list">
+                                <li class="portfolio__item-list-item">C#</li>
+                                <li class="portfolio__item-list-item">ASP.NET Core 6</li>
+                                <li class="portfolio__item-list-item">EF Core</li>
+                                <li class="portfolio__item-list-item">HTML/CSS</li>
+                            </ul>
+                        </div>
+
+                        <span class="button button--flex button--small button--link portfolio__button">
+                            View more
+                            <i class="bx bx-arrow-right button__icon"></i>
+                        </span>
+                        <!--==================== POP-UP MODAL FOR PORTFOLIO ITEM 3 ====================-->
+                        <div class="portfolio__modal">
+                            <div class="portfolio__modal-content">
+                                <h4 class="portfolio__modal-title">Tiny House Land Share</h4>
+                                <i class="bx bx-x portfolio__modal-close"></i>
+
+                                <p class="portfolio__modal-description">
+                                    Tiny House Land Share is a web application that aims to connect land 
+                                    owners and tiny house owners. This web application provides users a platform
+                                    to post listings and/or search land for rent or tiny house owner listings.  <br><br>
+                                    This project was created by myself in 3 months using C# ASP.Net Core. My aim
+                                    for this project was to create a usefull web applicaiton that I could eventually
+                                    host online and that would help solve finding land for people of alternative
+                                     living lifestyles. Through building this web application I have gained a stronger
+                                     understanding of how to integrate basic search functionality, use EF Core for identity
+                                     login and roles authorization, create a messaging system,
+                                     use MVC pattern effectively, and sharpen my frontend skills.                              
+                                </p>
+
+                                <ul class="portfolio__item-list">
+                                    <li class="portfolio__item-list-item">C#</li>
+                                    <li class="portfolio__item-list-item">ASP.NET Core 6</li>
+                                    <li class="portfolio__item-list-item">MVC</li>
+                                    <li class="portfolio__item-list-item">Dependancy Injection</li>
+                                    <li class="portfolio__item-list-item">EF Core</li>
+                                    <li class="portfolio__item-list-item">MS SQL</li>
+                                    <li class="portfolio__item-list-item">LINQ</li>
+                                    <li class="portfolio__item-list-item">HTML/CSS</li>
+                                    <li class="portfolio__item-list-item">Visual Studio 2022</li>
+                                    <li class="portfolio__item-list-item">AutoMapper</li>
+                                </ul>
+
+                                <div class="portfolio__modal-item-links">
+                                    <a href="https://www.github.com" class="button button--flex button--small 
+                                    button--link portfolio__modal-item-button">
+                                        Code <i class="bx bx-code-curly button__icon"></i>
+                                    </a>  
+                                    <a href="#" class="button button--flex button--small
+                                    button--link portfolio__modal-item-button">
+                                        Demo <i class="bx bx-play-circle button__icon"></i>
+                                    </a>  
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+
+                </div>
+            </section>
+
+            <!--=============== FOOTER ===============-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+
+
+                </div>
+            </footer>
+
+        </main>
+
+
+
+
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
