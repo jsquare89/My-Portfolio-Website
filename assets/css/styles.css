@@ -89,7 +89,6 @@ body.dark-theme{
 /*========== Button Dark/Light ==========*/
 .nav__btns{
   display: flex;
-  align-items: center;
 }
 
 .change-theme{
@@ -202,7 +201,7 @@ img {
 }
 
 .nav__toggle{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     cursor: pointer;
 }
 
@@ -408,16 +407,27 @@ img {
 /*==================== SKILLS ====================*/
 .skills__container{
   padding-top: 1rem;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem 1rem;
   
 }
 
-.skills__logo-img{
+.skills__logo-card{
+  max-width: 120px;
+  padding: 10px;
   text-align: center;
+}
+
+.skills__logo-img{
+  max-width: 100px;
+  margin-bottom: var(--mb-1-5);
+}
+
+.skills__logo-image{
   transform: scale(1);
   filter: opacity(80%);
-  margin-bottom: var(--mb-1-5);
 }
 
 .skills__logo-img:hover{
@@ -427,7 +437,7 @@ img {
 
 .skills__title{
   display: block;
-  margin-bottom: var(--mb-0-5);
+  margin-bottom: var(--mb-0-75);
 }
 
 /*==================== PORTFOLIO ====================*/
@@ -621,8 +631,8 @@ img {
   bottom: -20%;
   background-color: var(--first-color);
   opacity: .8;
-  padding: .3rem .3rem;
-  border-radius: 50%;
+  padding: .5rem .55rem;
+  border-radius: 0.25rem;
   z-index: var(--z-tooltip);
   transition: .4s;
 }
@@ -639,4 +649,22 @@ img {
 /* Show scroll */
 .show-scroll{
   bottom: 5rem;
+}
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 350px){
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .nav__menu{
+    padding: 2rem .25rem 4rem;
+  }
+
+  .nav__list{
+    column-gap: 0;
+  }
+
 }
