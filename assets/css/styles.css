@@ -121,6 +121,8 @@ body {
   color: var(--text-color);
 }
 
+
+
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -300,6 +302,12 @@ img {
   align-items: center;
 }
 
+.button--max-content
+{
+  max-width: max-content;
+  align-self: center;
+}
+
 /*==================== HOME ====================*/
 .home__container{
   gap: 1rem;
@@ -401,7 +409,8 @@ img {
 
 .about__button{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 1rem;
 }
 
 /*==================== SKILLS ====================*/
@@ -422,6 +431,8 @@ img {
 }
 
 .skills__logo-card svg{
+  width: 100px;
+  height: 100px;
 }
 
 .skills__logo-img{
@@ -501,7 +512,7 @@ img {
   display: flex;
   justify-content: center;
   margin: auto;
-  max-width: 10rem;
+  max-width: 150px;
 }
 
 .portfolio__item-list-item{
@@ -522,11 +533,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   z-index: var(--z-modal);
   opacity: 0;
   visibility: hidden;
   transition: .3s;
+  align-items: flex-start;
+  max-height: 100vh;
   overflow-y: auto;
 }
 
@@ -568,6 +581,10 @@ img {
 .active-modal{
   opacity: 1;
   visibility: visible;
+}
+
+.active-modal__disable-scroll{
+  overflow: hidden;
 }
 
 /*==================== CONTACT ====================*/
@@ -686,6 +703,37 @@ img {
 
   .nav__list{
     column-gap: 0;
+  }
+
+  
+.about__button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+  .skills__logo-card{
+    max-width: 80px;
+    font-size: var(--small-font-size);
+  }
+  .skills__logo-card svg{
+    transform: scale(0.5);
+  }
+  .skills__title{
+    display:inline-flex;
+    margin-bottom: var(--mb-0-25);  
+  }
+
+  .footer__title{
+    text-align: center;
+  }
+  .footer__main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
   }
 
 }
