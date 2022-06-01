@@ -416,8 +416,13 @@ img {
 
 .skills__logo-card{
   max-width: 120px;
-  padding: 10px;
+  padding: 0px 10px;
   text-align: center;
+  margin-bottom: var(--mb-1-5);
+  
+}
+
+.skills__logo-card svg{
 }
 
 .skills__logo-img{
@@ -436,8 +441,10 @@ img {
 }
 
 .skills__title{
-  display: block;
+  display:inline-flex;
   margin-bottom: var(--mb-0-75);
+  
+  
 }
 
 /*==================== PORTFOLIO ====================*/
@@ -463,6 +470,7 @@ img {
   width: auto;
   border-radius: .5rem;
   margin-bottom: var(--mb-1-5);
+  background-color: var(--text-color);
 }
 
 .portfolio__item-title{
