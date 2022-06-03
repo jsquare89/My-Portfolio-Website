@@ -412,7 +412,7 @@
 
                 <div class="contact__container container grid">
                     <div>
-                        <form action="https://formsubmit.co/jarredjardine@hotmail.com" method="post" class="contact__form grid">
+                        <form action="https://formsubmit.co/04f0fbfa139794a8d3850d61688c0f71" method="POST" class="contact__form grid" id="submit-form">
                             <div class="contact__inputs grid">
                                 <div class="contact__content">
                                     <label for="" class="contact__label">Name</label>
@@ -425,13 +425,14 @@
                             </div>
                             <div class="contact__content">
                                 <label class="contact__label">Message</label>
-                                <textarea name="" id="" cols="0" rows="8" class="contact__input"></textarea>
+                                <textarea name="message" id="" cols="0" rows="8" class="contact__input" required></textarea>
                             </div>
                             <div>
-                                <a href="" class="button button--flex">
+                                <a href="#" onclick="document.getElementById('submit-form').submit()" class="button button--flex">
                                     Send Message
                                     <i class="bx bx-message button__icon"></i>
                                 </a>
+                                </button>
                             </div>
                             <input type="hidden" name="_subject" value="Portfolio website submission">
                         </form>
