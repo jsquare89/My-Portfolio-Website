@@ -631,6 +631,7 @@ img {
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi-bold);
   text-align: center;
+  border-style: none;
 }
 
 /*==================== FOOTER ====================*/
@@ -851,4 +852,8 @@ img {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
   }
+}
+
+.hidden{
+  display: none;
 }
