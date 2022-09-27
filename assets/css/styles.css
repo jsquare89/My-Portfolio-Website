@@ -571,6 +571,15 @@ img {
   margin-bottom: var(--mb-1-5);
 }
 
+.portfolio__modal-h4{
+  margin-bottom: -14px;
+}
+
+.portfolio__modal-ul{
+  list-style: circle;
+  padding: 1.5rem;
+}
+
 .portfolio__modal-item-links{
   text-align: center;
 }
