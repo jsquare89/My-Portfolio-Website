@@ -248,7 +248,7 @@
                                     <li class="portfolio__item-list-item">MS SQL</li>
                                     <li class="portfolio__item-list-item">LINQ</li>
                                     <li class="portfolio__item-list-item">HTML/CSS</li>
-                                    <li class="portfolio__item-list-item">Tailwindcss 3</li>
+                                    <li class="portfolio__item-list-item">TailwindCSS 3</li>
                                     <li class="portfolio__item-list-item">AutoMapper</li>
                                     <li class="portfolio__item-list-item">Visual Studio 2022</li>
                                 </ul>
@@ -294,24 +294,31 @@
                         <!--==================== POP-UP MODAL FOR PORTFOLIO ITEM 2 ====================-->
                         <div class="portfolio__modal">
                             <div class="portfolio__modal-content">
-                                <h4 class="portfolio__modal-title">Swimwear Store GraphQL API</h4>
+                                <h4 class="portfolio__modal-title">Store GraphQL API</h4>
                                 <i class="bx bx-x portfolio__modal-close"></i>
 
                                 <p class="portfolio__modal-description">
-                                    A GraphQL API that serves data for a swimwear clothing storefront. This API
+                                    A GraphQL API that serves data for a swim apparel storefront. This API
                                     interfaces with a Postgres database via a lightweight Dapper ORM. Created with
                                     C# and .NET Core 6 in Visual Studio 2022.
                                     
-                                    GraphQL allows for the client to easily make use of schema to query for 
-                                    the exact data needed and nothings more.    
+                                    GraphQL allows for a client to easily make use of a schema to query for 
+                                    the exact data needed and nothing more.    
                                 </p>
                                 <h4 class="portfolio__modal-h4">Project Highlights</h4>
                                 <ul class="portfolio__modal-ul">
-                                    <li>Provides GraphQL endpoint to query and mutate data with full CRUD</li>
+                                    <li>Provides GraphQL endpoint to query and mutate data with full CRUD across multiple entities</li>
                                     <li>Implements GraphQL with Hot Chocolate</li>
                                     <li>GraphQL Voyager for viewing schema with relationship graph</li>
-                                    <li>Insomnia for testing GraphQL endpoint</li>
-                                    <li>Docker for PostgreSQL container</li>
+                                    <li>Client authorization for mutations</li>
+                                    <li>Insomnia for testing the GraphQL endpoint</li>
+                                    <li>Docker for easy hosting of PostgreSQL service</li>
+                                </ul>
+                                <h4 class="portfolio__modal-h4">Project Challenges</h4>
+                                <ul class="portfolio__modal-ul">
+                                    <li>GraphQL learning curve</li>
+                                    <li>Handling resolvers correctly</li>
+                                    <li>Awareness of N+1 problem in fetching query dependancies. Implemented data loaders</li>
                                 </ul>
 
                                 <ul class="portfolio__item-list">
@@ -324,6 +331,8 @@
                                     <li class="portfolio__item-list-item">PostgreSQL</li>
                                     <li class="portfolio__item-list-item">LINQ</li>
                                     <li class="portfolio__item-list-item">Dapper ORM</li>
+                                    <li class="portfolio__item-list-item">Fluent Migrator</li>
+                                    <li class="portfolio__item-list-item">AutoMapper</li>
                                     <li class="portfolio__item-list-item">Visual Studio 2022</li>
                                     <li class="portfolio__item-list-item">Insomnia</li>
                                     <li class="portfolio__item-list-item">Docker</li>
@@ -352,9 +361,11 @@
                             <p class="portfolio__item-description">A website that allows customers to browse a catalogue of swim apparel and purchase items online. </p>
                             <span class="portfolio__item-skills-title">Created with</span>
                             <ul class="portfolio__item-list">
-                                <li class="portfolio__item-list-item">React</li>
+                                <li class="portfolio__item-list-item">C#</li>
+                                <li class="portfolio__item-list-item">Blazor</li>
                                 <li class="portfolio__item-list-item">Javascript</li>
                                 <li class="portfolio__item-list-item">HTML/CSS</li>
+                                <li class="portfolio__item-list-item">TailwindCSS</li>
                                 <li class="portfolio__item-list-item">Custom GraphQL API</li>
                             </ul>
                         </div>
@@ -579,6 +590,8 @@
                 <span class="section__subtitle">Get in touch</span>
 
                 <div class="contact__container container grid">
+                    
+
                     <div>
                         <form action="https://formsubmit.co/04f0fbfa139794a8d3850d61688c0f71" method="POST" class="contact__form grid" id="submit-form">
                             <div class="contact__inputs grid">
@@ -616,7 +629,7 @@
                         <div>
                             <h1 class="footer__title">Jarred</h1>
                             <span class="footer__subtitle">.NET Software Developer</span>
-                        </div>
+                        </div>              
     
                         <ul class="footer__links">
                             <li>
@@ -645,5 +658,6 @@
         
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     </body>
 </html>
