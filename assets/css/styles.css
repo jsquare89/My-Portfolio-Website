@@ -334,10 +334,10 @@ img {
 
 @keyframes home__glow {
   from {
-    box-shadow: 0 4px 64px var(--first-color);
+    box-shadow: 0 4px 16px var(--first-color);
   }
   to {
-    box-shadow: 0 4px 256px var(--first-color);
+    box-shadow: 0 4px 64px var(--first-color);
   }
 }
 
